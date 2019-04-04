@@ -1,7 +1,9 @@
 int LEDBLUE=4;
 int LEDGREEN=7;
-int BLINKBLUE=10; 
-int BLINKGREEN=5;
+int BLINKBLUE; 
+int BLINKGREEN;
+int REDLEDon;
+int REDLEDoff;
 String message="i love electronics"; 
 
 
