@@ -2,8 +2,7 @@ int pinpot=A0;
 int redled= 10;
 int Readvalue;
 int Brightness;
-int Writevalue;
-float voltage;
+
 
 String message="pinpot value=";
 String message2="Brightness=";
@@ -27,17 +26,5 @@ void loop() {
   delay(1000);
   analogWrite(redled,0);
   delay(1000);
- Serial.print("tpinvalue");
-  Serial.print(Readvalue);
-  Serial.print(" ");
-  Serial.print("mapped values");
-  Serial.print(" " );
-  Serial.print(Writevalue);
- Serial.print(" " );
- Serial.print("Write value");
-  Serial.print(" ");
-  Serial.println(voltage);
-  delay(1000);
-  // put your main code here, to run repeatedly:
 
 }
